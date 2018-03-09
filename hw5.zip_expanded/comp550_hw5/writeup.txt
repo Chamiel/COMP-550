@@ -1,0 +1,13 @@
+Michael Huang
+HW 5
+No Collaborators
+
+c. Input: 8812
+   FLE encoded string length: 70396
+   Huffman assignment.txt encoded string length: 42601
+   Huffman syllabus.txt encoded string length: 42083
+   Shortest is syllabus.txt, assignment.txt is only 518 longer
+   
+d. Huffman random.txt encoded string length: 55973
+   Not as good as the other two using huffman coding, but still
+   better than fixed length encoding.

@@ -1,0 +1,12 @@
+K value of 5
+
+1. 3 iterations, classified as medium
+2. 2 iterations, classified as medium
+3. 3 iterations, classified as medium
+4. 2 iterations, classified as small
+5. 2 iterations, classified as medium
+
+Medium sometimes cluster with Large due to the heights being similar for the dataset,
+and the height of the Cocker Spaniel is decently lower than any of the data points from
+the data set, leading it to be sometimes classified as small. It all depends on the
+initial centroids, and this can even cause it to be classified as large (rarely).

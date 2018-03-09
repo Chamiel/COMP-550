@@ -1,0 +1,27 @@
+1(a)
+64-bit Windows 10 Education, Intel i7-6700K CPU @ 4.00 GHz
+16 GB RAM Java JRE 1.8
+
+1(b)				Insertion Sort	Merge Sort	Selection Sort	Bubble Sort
+Small Sorted		0.644342		2.628724	10.539424		9.366475
+Small Almost-sorted	1.527056		2.664237	9.544039		9.077006
+Small Backwards		11.599702		2.483606	9.543273		18.025756
+Small Random		6.739283		2.53726		9.467392		15.911075
+Large Sorted		7.141423		34.150676	3009.399688		4122.239124
+Large Almost-sorted	10.904006		33.223252	3056.852899		13085.632945
+Large Backwards		12707.002385	34.482045	3409.487218		28877.78157
+Large Random		9356.709877		40.472236	10565.234209	35922.88735
+
+1(c)
+Insertion sort is the fastest for already sorted or almost data sets, as it is able to skip most of the work.
+Otherwise, merge sort is more efficient, and always does around the same amount of work no matter how sorted
+the list already is. Merge sort always splits the list into chunks and sorts it that way, even if the list is
+already sorted, it still does the work of dividing it before working on sorting. Unlike the merge sort, the 
+other sorts get a lot worse as the sets get less and less sorted. Bubble sort is the worst, as it runs in O(n^2)
+most of the time.
+
+2(b)
+Input Size		10			100			1000		10,000		100,000
+Brute-Force		0.654307	0.903664	6.721144	49.048994	7305.760556
+Recursive		1.224047	0.82804		2.434297	4.133298	12.785682
+Brute-force works for smaller sets, but as the scale increases, brute-force quickly becomes very inefficient.
